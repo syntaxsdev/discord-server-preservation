@@ -28,21 +28,10 @@ public class Category {
             */
            
        new Category("Services")
-           .addChannel(Channel.getByName("Refund Services"))
-           .addChannel(Channel.getByName("amazon"))
-           .addChannel(Channel.getByName("target"))
-           .addChannel(Channel.getByName("paypal"))
-           .addChannel(Channel.getByName("ebay"))
-           .addChannel(Channel.getByName("adidas"))
-           .addChannel(Channel.getByName("home depot"))
-           .addChannel(Channel.getByName("food refund"))
-           .addChannel(Channel.getByName("other store list"))
-           .addChannel(Channel.getByName("chipotle-buy4u"))
-           .addChannel(Channel.getByName("ubereats-buy4u")),
+           .addChannel(Channel.getByName("ToS"))
+           .addChannel(Channel.getByName("Announcements")),
            
        /*
-        * new Category("Litesin Services")
-        * .addChannel(Channel.getByName("btc-exchange")),
         * 
         * new Category("General")
         * .addChannel(Channel.getByName("chat"))
