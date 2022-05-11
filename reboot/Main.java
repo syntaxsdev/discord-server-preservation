@@ -15,7 +15,7 @@ import net.dv8tion.jda.api.utils.MemberCachePolicy;
 public class Main {
     
     private static JDA jda;
-    private static final String token = "Nzg4NTc3MDUxOTI1ODA3MTE0.X9lhnA.MvZWb18gIJhr2fsWmdxYVBQm3Bk";
+    private static final String token = "token";
     
     public static void main(String[] args) throws LoginException, InterruptedException {
         
