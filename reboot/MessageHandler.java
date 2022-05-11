@@ -83,23 +83,7 @@ public class MessageHandler extends ListenerAdapter {
             
             if (msg.equals(prefix + "pitch")) 
             {
-                channel.sendMessage("Hello guys! There has been a change in management! **We plan to keep our Among Us server channels the same.** However, we  also plan to offer an additional service! Please read carefully!\n" + 
-                    "\n" + 
-                    "We have been offering food and refund services for two years on Discord now. \n" + 
-                    "\n" + 
-                    "Currently here, we are offering food services like **Chipotle, Doordash, and Ubereats** refunds up to 60% off! \n" + 
-                    "**How it works?:** You order food at we can refund it for you. You get your money back and we charge a small percentage.\n" + 
-                    "Check out the channels! #chipotle-buy4u #food-refund \n" + 
-                    "\n" + 
-                    "We also offer other refund services such as **Amazon, Target, and eBay! **\n" + 
-                    "**How it works?:** You can follow the instructions in the respective channels listed under the #services category. Buy any qualifying item that meets the requirement, and we can refund it for you.\n" + 
-                    "**Examples:** You can buy a **50\" TV** from Target or a **Nintendo Switch game,** pick it up the same day and have it refunded, or buy shoes or clothing from **Adidas, Old Navy, or Macys.** Need some **Crocs** we can do that too! Check out #other-store-list for a complete list.\n" + 
-                    "Check out #amazon #target #adidas for more info on the mentioned stores!\n" + 
-                    "\n" + 
-                    "We will also be having **free chipotle giveaways for our members!**\n" + 
-                    "Streaming Among Us all day and hungry? We will take care of our members! More information coming soon.\n" + 
-                    "\n" + 
-                    "**Not interested? :(** Thats fine! You can continue using this Among Us servers like intended! No need to do anything else! We are also taking suggestions on improving the experience for you guys!").queue();
+                channel.sendMessage("We are also taking suggestions on improving the experience for you guys!").queue();
             }
             //give roles
             if (msg.equals(prefix + "role give consumer")) 
